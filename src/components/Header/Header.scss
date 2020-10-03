@@ -1,0 +1,25 @@
+.header__container {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(5, 125, 14, 0.44);
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  //   border-bottom: 1px solid #1b181a;
+  -webkit-box-shadow: 0px 10px 19px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 19px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 19px -10px rgba(0, 0, 0, 0.75);
+
+  .icon__pedal {
+    color: #1b181a;
+    font-size: 50px;
+  }
+  .header__text {
+    margin-left: 30px;
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #1b181a;
+    letter-spacing: 1px;
+  }
+}
