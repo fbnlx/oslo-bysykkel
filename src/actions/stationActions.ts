@@ -1,5 +1,11 @@
-import { SET_STATION_STATUS, Station, StationActionTypes, StationStatus } from '../types/Station';
-import { SET_STATIONS, SET_ACTIVE_STATION } from '../types/Station';
+import {
+  SET_STATION_STATUS,
+  Station,
+  StationActionTypes,
+  StationStatus,
+  SET_STATIONS,
+  SET_ACTIVE_STATION,
+} from '../types/Station';
 
 export function setStations(stations: Station[]): StationActionTypes {
   return {

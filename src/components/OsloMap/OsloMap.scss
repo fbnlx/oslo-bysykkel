@@ -1,10 +1,20 @@
+@import '../../styles/variables.scss';
+
 .leaflet-container {
-  height: 600px;
-  width: 100%;
-  border: 2px solid rgba(5, 125, 14, 0.44);
-  border-radius: 10px;
   outline: none;
   -webkit-box-shadow: 9px 13px 19px -13px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 9px 13px 19px -13px rgba(0, 0, 0, 0.75);
   box-shadow: 9px 13px 19px -13px rgba(0, 0, 0, 0.75);
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  border-radius: 10px;
+  width: 72.5%;
+  @include tablet {
+    height: 380px;
+    width: 100%;
+  }
+  @include mobile {
+    height: 300px;
+  }
 }

@@ -1,3 +1,6 @@
+This is a tiny app that allows you to see the availability of Oslo's different bike stations.
+It uses the Oslo City Bike public API available at https://oslobysykkel.no/en/open-data/realtime
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
