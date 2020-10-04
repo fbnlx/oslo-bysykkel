@@ -12,11 +12,14 @@
     "@types/react-dom": "^16.9.8",
     "axios": "^0.20.0",
     "leaflet": "^1.7.1",
+    "moment": "^2.29.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-leaflet": "^2.7.0",
+    "react-redux": "^7.2.1",
     "react-scripts": "3.4.3",
+    "redux": "^4.0.5",
     "typescript": "^3.7.5"
   },
   "scripts": {
@@ -41,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-leaflet": "^2.5.2"
+    "@types/react-leaflet": "^2.5.2",
+    "@types/react-redux": "^7.1.9"
   }
 }

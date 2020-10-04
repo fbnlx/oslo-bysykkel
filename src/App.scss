@@ -1,7 +1,13 @@
 .App {
-  margin: 0;
-  box-sizing: border-box;
   .App__body {
     margin: 20px 10%;
+    display: flex;
+    .App__body-left {
+      width: 60%;
+    }
+    .App__body-right {
+      margin-left: 5%;
+      width: 35%;
+    }
   }
 }
